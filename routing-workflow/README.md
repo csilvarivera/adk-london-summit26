@@ -1,7 +1,13 @@
 # routing-workflow
 
-Simple ReAct agent
-Agent generated with `agents-cli` version `0.1.1`
+**Dynamic Routing Graph Workflow Agent**  
+An advanced, graph-based routing agent built with the Google Agent Development Kit (ADK 2.0) orchestration engine. It defines a dynamic graph (`WorkflowAgent`) containing a classification function node, a router event node, and three highly-specialized handler LLM nodes (`billing_handler`, `customer_support_handler`, and `logistics_handler`). Incoming customer requests are automatically categorized by the LLM classifier, and routed simultaneously to the correct billing, customer support, or logistics handler for a direct, professional, and context-aware solution.
+
+### 🚀 Sample Prompt
+You can run this agent in the playground or via the CLI with a prompt like:
+```bash
+agents-cli run "My billing has a bug, it charged me twice. Can support help me refund it?"
+```
 
 ## Project Structure
 

@@ -1,6 +1,14 @@
 # market-analysis-loop
 
-Simple ReAct agent
+**Market Analysis Self-Improving Loop Agent**  
+An advanced, self-improving market research agent utilizing the `LoopAgent` pattern to drive an iterative reflection process (Draft $\rightarrow$ Critique $\rightarrow$ Revise). It coordinates an industry-specialized Writer and an executive Editor equipped with a curated market intelligence database (and Wikipedia fallback search) to deliver publication-ready, deeply-critiqued business briefs. It automatically exits the loop once high quality standards are achieved.
+
+### 🚀 Sample Prompt
+You can run this agent in the playground or via the CLI with a prompt like:
+```bash
+agents-cli run "Analyze the 2026 Electric Vehicle battery materials market."
+```
+
 Agent generated with [`googleCloudPlatform/agent-starter-pack`](https://github.com/GoogleCloudPlatform/agent-starter-pack) version `0.41.3`
 
 ## Project Structure

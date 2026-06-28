@@ -1,7 +1,13 @@
 # omnichannel-research
 
-Simple ReAct agent
-Agent generated with `agents-cli` version `0.1.1`
+**Omnichannel Concurrent Research Agent**  
+An advanced, multi-disciplinary research coordinator built using the Google Agent Development Kit (ADK). This project orchestrates a complex `SequentialAgent` pipeline that begins with a `ParallelAgent` containing three independent factual, news, and academic expert researchers (`WikipediaFactualResearcher`, `CurrentEventsResearcher`, and `ScholarlyArticleResearcher`) running concurrently. Once the parallel sweep is complete, the `OmniChannelSynthesizer` consolidates the multi-channel insights into a stunning 360-degree executive synthesis report complete with public sentiment metrics and peer-reviewed scholarly citations.
+
+### 🚀 Sample Prompt
+You can run this agent in the playground or via the CLI with a prompt like:
+```bash
+agents-cli run "Research the current state of Quantum Computing"
+```
 
 ## Project Structure
 

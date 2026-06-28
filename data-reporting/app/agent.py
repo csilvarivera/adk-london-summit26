@@ -30,10 +30,6 @@ try:
 except Exception:
     project_id = "csilvariverademo"
 
-# Set model execution environment (Vertex AI, Global region)
-os.environ["GOOGLE_CLOUD_PROJECT"] = "csilvariverademo"
-os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
-os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "True"
 
 # Configure BigQuery Location to US (requested by user)
 bq_location = "US"

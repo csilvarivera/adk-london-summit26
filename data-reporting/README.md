@@ -1,6 +1,14 @@
 # data-reporting
 
-Simple ReAct agent
+**Data Reporting Pipeline Agent**  
+A data engineering and analytics pipeline built with the Google Agent Development Kit (ADK). This system coordinates a meticulous `data_cleaner_agent` that ingests raw data, standardizes layouts, and imputes missing values, alongside a secondary analytical agent integrated with the `BigQueryToolset` and custom chart rendering tools to generate visual, production-ready reporting briefs.
+
+### 🚀 Sample Prompt
+You can run this agent in the playground or via the CLI with a prompt like:
+```bash
+agents-cli run "Clean the invoice raw data, analyze duplicate invoices from BigQuery, and generate a visualization chart."
+```
+
 Agent generated with `agents-cli` version `0.1.1`
 
 ## Project Structure
